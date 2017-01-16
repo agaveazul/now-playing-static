@@ -195,3 +195,78 @@ figure {
 .about > p {
   margin: 0;
 }
+
+@media (min-width: 768px) {
+.movie-overview {
+    display: inline;
+}
+.footer-nav {
+    float: left;
+    width: 50%;
+}
+
+.about {
+ float: left;
+ width: 50%;
+ background: black;
+}
+
+.site-footer {
+    overflow: hidden;
+    background: black;
+    color: white;
+    float: right;
+    width: 90%;
+}
+
+.site-header {
+    float: left;
+    width: 10%;
+}
+
+main {
+    float: right;
+    width: 90%;
+}
+
+.site-nav {
+    position: static;
+}
+
+.site-nav-item {
+    width: 100%;
+}
+
+.site-nav {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.site-logo {
+    width: 50px;
+    top: 2%;
+    left: 2.25%;
+}
+
+}
+
+@media (min-width: 992px) {
+
+.movie:nth-child(n+2) .movie-backdrop {
+    display: none;
+}
+
+.movie:nth-child(n+2) .movie-overview {
+    display: none;
+}
+
+.movie:nth-child(n+2) .movie-poster {
+    display: block;
+}
+
+.movie:nth-child(n+2) {
+    float: left;
+    width: 33.333%;
+}
+}
